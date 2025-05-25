@@ -4,6 +4,6 @@ project(webServer)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(webServer main.cpp
-        server.h
+        web/server.h
         menu_txt.h
 )
